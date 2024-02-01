@@ -14,9 +14,12 @@
     <p>now we see how merge works</p>
     <p>another change on master</p>
     <h2>commit 2 on master</h2>
-    <button onclick="">click me</button>
+    <button onclick="rohan()">click me</button>
 
     <script>
+        function rohan() {
+            alert("hi");
+        }
         let but = document.getElementsByTagName('button');
         but[0].addEventListener("click", function (){
             document.body.style.background = 'red';
